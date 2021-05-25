@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.926);
+}
+
+.container {
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.clock {
+    background-color: rgb(44, 44, 44);
+    padding: 0px;
+    width: 560px;
+    height: 380px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid rgba(245, 245, 245, 0.193);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.707);
+}
+
+.items {
+    background-color: transparent;
+    width: 460px;
+}
+
+.items p {
+    font-size: 80pt;
+    background-color: transparent;
+    color: white;
+    font-weight: 600;
+}
+
+.items button {
+    background-color: transparent;
+    border: 1px solid rgb(163, 163, 163);
+    color: rgb(175, 175, 175);
+    text-align: center;
+    font-size: 14pt;
+    margin: 10px;
+    padding: 16px;
+    border-radius: 10px;
+    width: 135px;
+    cursor: pointer;
+}
+
+.items button:hover {
+    color: whitesmoke;
+    border: 1px solid white;
+}
+
+.items h2 {
+    text-align: left;
+    background-color: transparent;
+    color: white;
+}
+
+h3{
+    color: rgba(255, 255, 255, 0.72);
+    padding: 10px;
+    font-weight: 300;
+}
+
+hr {
+    margin-top: 14px;
+    margin-bottom: 14px;
+    color: rgba(128, 128, 128, 0.309);
+}
+
+img {
+    background-color: transparent;
+    width: 25px;
+}
+
+.player{
+    margin: 20px;
+    margin-left: 0;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.player img{
+    width:90px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.733);
+}
+
+.player section{
+    margin-left: 10px;
+    padding: 10px;
+    text-align: left;
+    color: white;
+}
+
+.player h3{
+    padding-left: 0;
+    font-weight: 600;
+    font-size: 20pt;
+    color: white;
+}
+
+.player h5{
+    font-weight: 300;
+    font-size: 12pt;
+}
