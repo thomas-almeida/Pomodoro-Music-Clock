@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <title>Pomodoro & Radio</title>
 </head>
 
 <body>
@@ -31,11 +31,15 @@
                 </div>
             </div>
 
-            <div class="player">
+            <div class="player music-info">
                 <img src="img/icons/Album.jpg" id="album" alt="">
                 <section>
-                    <h5>Tocando agora:</h5>
-                    <h3>Eleven - Khalid</h3>
+                    <h5 id="time">Pomodoro Radio:</h5>
+                    <p id="timer">00:00</p>
+                    <h3 id="title">Eleven, <a href="#">@Khalid</a></h3>
+                    <img src="img/icons/play.png" id="play-pause" alt="">
+                    <img src="img/icons/next.png" id="next" alt="">
+                    <audio src="music/Eleven.mp3" preload="metadata" id="audio"></audio>
                 </section>
             </div>
 
@@ -45,5 +49,6 @@
 </body>
 
 <script src="scripts/contador.js"></script>
+<script src="scripts/player.js"></script>
 
 </html>

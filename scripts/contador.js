@@ -16,14 +16,14 @@ function start() {
 
 //parar cronometro
 function stop() {
-    
+
     //Clear interval, Para a contagem
     clearInterval(cron)
 
     //Resetando os valores das variáveis para o início
     mm = 24
     ss = 60
-    
+
     //Resetando o texto incial do site
     document.getElementById('clock').innerText = "25:00"
 
@@ -48,3 +48,4 @@ function timer() {
     var format = (mm < 10 ? '0' + mm : mm) + ':' + (ss < 10 ? '0' + ss : ss)
     document.getElementById('clock').innerText = format
 }
+
